@@ -9,9 +9,11 @@ Patient-derived xenograft (PDX) models represent a valuable platform for preclin
 
 Use devtools to install DRAP package directly from github.
 
+install.packages('devtools')
+
 devtools::install_github('QuanXue/DRAP')
 
-This will install a package called DRAP on your system (my apologies for the confusion with repository vs. package names).
+This will install a package called DRAP on your system.
 
 
 # Reference
