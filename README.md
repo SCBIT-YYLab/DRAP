@@ -11,9 +11,7 @@ Use devtools to install DRAP package directly from github.
 
 install.packages('devtools')
 
-devtools::install_github('QuanXue/DRAP')
-
-This will install a package called DRAP on your system.
+devtools::install_github('SCBIT-YYLab/DRAP')
 
 
 # Reference
