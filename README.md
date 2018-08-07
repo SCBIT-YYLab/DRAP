@@ -8,8 +8,9 @@ Patient-derived xenograft (PDX) models represent a valuable platform for preclin
 # Installation
 
 Use devtools to install DRAP package directly from github.
-
-install.packages('devtools')
+if(!require(devtoos)){
+  install.packages('devtools')
+}
 
 devtools::install_github('SCBIT-YYLab/DRAP')
 
