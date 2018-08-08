@@ -1371,7 +1371,7 @@ DRAnalysis <- function(data, pattern = c('oneAN','TAN'),
 #' 
 #' @references Elso, C.M., et al. Leishmaniasis host response loci (lmr1-3) modify disease severity through a Th1/Th2-independent pathway. Genes and immunity 2004;5(2):93-100.
 #' 
-#' @seealso compareTwoGC, MeanT, MeanW
+#' @seealso  \code{\link{compareTwoGC}}
 #' 
 #' @examples
 #' \donttest{
@@ -1481,7 +1481,7 @@ compareGC <- function (data, compare.to = c('all','neg.control','pos.control'), 
 #' 
 #' @references Elso, C.M., et al. Leishmaniasis host response loci (lmr1-3) modify disease severity through a Th1/Th2-independent pathway. Genes and immunity 2004;5(2):93-100.
 #' 
-#' @seealso compareGC, MeanT, MeaW
+#' @seealso  \code{\link{compareGC}}
 #' 
 #' @export
 compareTwoGC <- function (data, n = n, fun) {
@@ -1527,7 +1527,7 @@ compareTwoGC <- function (data, n = n, fun) {
 #' 
 #' @references Elso, C.M., et al. Leishmaniasis host response loci (lmr1-3) modify disease severity through a Th1/Th2-independent pathway. Genes and immunity 2004;5(2):93-100.
 #' 
-#' @seealso MeaW
+#' @seealso \code{\link{MeaW}}
 #' 
 #' @export
 MeanT <- function (data.1, data.2) {
@@ -1571,7 +1571,7 @@ MeanT <- function (data.1, data.2) {
 #' @details This function computes the W-statistic of tumor volumes between two arms at each time point, and returns the mean of W-statistics at all time points. This function is used by compareGC.
 #' @return mean W-statistic.
 #' 
-#' @seealso MeanT
+#' @seealso \code{\link{MeaT}}
 #' 
 #' @export
 MeanW <- function (data.1, data.2) {
