@@ -17,9 +17,6 @@ devtools::install_github('SCBIT-YYLab/DRAP')
 
 
 # Reference
-Gao, H., et al. High-throughput screening using patient-derived tumor xenografts to predict clinical trial drug response. Nat Med 2015;21(11):1318-1325.
+Li, Q., et al. (2019). "DRAP: a toolbox for drug response analysis and visualization tailored for preclinical drug testing on patient-derived xenograft models." J TRANSL MED 17(1): 39.
 
-Murphy, B., et al. Evaluation of Alternative In Vivo Drug Screening Methodology: A Single Mouse Analysis. Cancer Res 2016;76(19):5798-5809.
-
-Bertotti, A., et al. The genomic landscape of response to EGFR blockade in colorectal cancer. Nature 2015;526(7572):263-267.
 
