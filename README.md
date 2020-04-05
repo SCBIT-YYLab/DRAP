@@ -17,6 +17,6 @@ devtools::install_github('SCBIT-YYLab/DRAP')
 
 
 # Reference
-Li, Q., et al. DRAP: a toolbox for drug response analysis and visualization tailored for preclinical drug testing on patient-derived xenograft models. Journal of Translational Medicine, 2019, 17(1): 39.
+Quanxue Li, Wentao Dai, Jixiang Liu, Yi‑Xue Li, and Yuan‑Yuan Li. DRAP: a toolbox for drug response analysis and visualization tailored for preclinical drug testing on patient-derived xenograft models. Journal of Translational Medicine, 2019, 17(1): 39.
 
 
